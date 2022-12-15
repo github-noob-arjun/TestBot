@@ -14,5 +14,12 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text="Hi Java jaba jabaa.. 💥🔥🎉🎁",
         parse_mode="html")
+
+@Bot.on_message(filters.private & filters.command('hlp'))
+async def hlp(bot, update):
+    await update.send_message(
+        chat_id=update.chat.id,
+        text="Hi Java jaba jabaa.. 💥🔥🎉🎁",
+        parse_mode="html")
     
 
