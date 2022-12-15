@@ -1,5 +1,2 @@
-# import 
-# "scripts": {
-#  "start":"Run.py"
-#  }
+
 worker: python3 bot.py
