@@ -1,9 +1,9 @@
+from pyrogram import Client, filters
+import os
+
 TOK="5931770179:AAHoonbw-4iJF6_rCzj02sph_6wNTkUssFs"
 ID="15681435"
 HAS="29021e7d8f6fe5338a45470115567f9e"
-
-
-from pyrogram import Client, filters
 
 Bot = Client(
     "RunBot",
