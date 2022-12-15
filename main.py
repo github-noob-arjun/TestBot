@@ -8,9 +8,11 @@ Bot = Client(
     api_hash="29021e7d8f6fe5338a45470115567f9e"
 )
 
-@Bot.on_message(filters.private & filters.command(["start"]))
+@Bot.on_message(filters.private & filters.command('start'))
 async def start(bot, update):
-    await update.reply_text(
-        text="Hi Java jaba jabaa.. 💥🔥🎉🎁"
-    )
+    await update.send_message(
+        chat_id=update.chat.id,
+        text="Hi Java jaba jabaa.. 💥🔥🎉🎁",
+        parse_mode="html")
+    
 
