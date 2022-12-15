@@ -14,5 +14,3 @@ async def start(bot, update):
         text="Hi Java jaba jabaa.. 💥🔥🎉🎁"
     )
 
-bot = Bot()
-bot.run()
