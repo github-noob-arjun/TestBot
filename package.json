@@ -1,3 +1,22 @@
-"scripts": {
-   "start": "python3 Run.py"
-   }
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Original version of this document copied from [yarnpkg](https://yarnpkg.com/lang/en/docs/package-json/).",
+  "main": "Python3 Run.py",
+  "scripts": {
+    "toc": "markdown-toc -i --maxdepth 3 README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github-noob-arjun/TestBot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stereobooster/package.json/issues"
+  },
+  "homepage": "https://github.com/stereobooster/package.json#readme",
+  "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}
